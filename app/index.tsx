@@ -44,19 +44,19 @@ const styles = StyleSheet.create({
   },
   landingContainer: {
     flex: 1,
-    backgroundColor: 'rgba(79, 157, 232, 0.50)', // Ocean blue with 85% opacity
+    backgroundColor: 'rgba(79, 157, 232, 0.50)', // Ocean blue with 50% opacity
     alignItems: 'center',
     justifyContent: 'center',
     padding: 20,
   },
   heading: {
     fontSize: 36,
-    color: '#001F54', // Navy blue
+    color: '#ffffff', // Navy blue
     fontFamily: 'Poppins-Bold',
   },
   subheading: {
-    fontSize: 18,
-    color: '#001F54',
+    fontSize: 22,
+    color: '#ffffff',
     fontFamily: 'Poppins-Regular',
     marginTop: 8,
     marginBottom: 20,

@@ -16,7 +16,7 @@ import {
 import { LinearGradient } from 'expo-linear-gradient';
 import { useNavigation } from '@react-navigation/native';
 import { Feather } from '@expo/vector-icons';
-import { getTinyLlamaReply } from '../utils/llamaChat';
+import {  getGeminiReply  } from '../utils/geminiChat';
 
 type Message = {
   text: string;
@@ -44,7 +44,7 @@ export default function HomeScreen() {
     setIsAnalyzing(true);
   
     try {
-      const reply = await getTinyLlamaReply(userInput);
+      const reply = await  getGeminiReply(userInput);
   
       // Ensure reply is a string, fallback to a default response if undefined
       const safeReply = reply ?? "Sorry, I couldn't generate a response.";
@@ -171,7 +171,7 @@ const styles = StyleSheet.create({
   appName: {
     fontSize: 22,
     fontWeight: 'bold',
-    color: '#fff',
+    color: '#ffffff',
     fontFamily: 'Poppins-Bold',
   },
   journalButton: {
