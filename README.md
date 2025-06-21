@@ -1,18 +1,17 @@
-# SerenityAI 🧘‍♀️🤖
+# SerenityAI 🧘‍♀️✨
 
-A mobile-first Mental Health Companion App built using **React Native**, **Expo**, and **Hugging Face Models**. SerenityAI provides users with an empathetic chatbot interface for basic mental health support using natural language processing and sentiment detection.
+A mobile-first **Mental Health Companion App** built using **React Native**, **Expo**, and Google's **Gemini API**. SerenityAI provides users with a calming space to express their feelings through journaling, and includes an empathetic chatbot powered by Gemini for supportive conversations.
 
 ## 🌍 Project Purpose
 
-This app supports **UN Sustainable Development Goal 3 (Good Health & Well-being)** by providing users with a minimalistic yet functional chatbot experience focused on mental health awareness and self-expression.
+This app aligns with **UN Sustainable Development Goal 3 (Good Health & Well-being)** by encouraging emotional self-care and providing a minimal, distraction-free interface to support mental well-being.
 
 ## ✨ Features
 
-- 💬 Chat interface to talk about mental health-related questions
-- 🧠 Sentiment analysis of the user's input using Hugging Face API
-- 📚 Uses a curated mental health Q&A dataset
-- 🌊 Modern, calming UI/UX with gradient headers and oceanic colors
-- 📱 Cross-platform mobile support via React Native + Expo
+- 📔 Guided journaling interface to reflect on your thoughts and emotions
+- 🤖 Mental health chatbot powered by Gemini API for supportive dialogue
+- 🌊 Minimalist, ocean-themed UI with gradient headers and soothing colors
+- 📱 Built with React Native + Expo for seamless cross-platform support
 
 ---
 
@@ -24,11 +23,10 @@ This app supports **UN Sustainable Development Goal 3 (Good Health & Well-being)
 │   ├── screens/
 │   ├── components/
 │   ├── utils/
-│   │   └── csvloader.ts
+│   │   └── api.ts        # Gemini API integration
 │   ├── index.tsx
 │   └── _layout.tsx
 ├── assets/
-│   └── mental_health_qa.csv
 ├── .gitignore
 ├── README.md
 └── package.json
