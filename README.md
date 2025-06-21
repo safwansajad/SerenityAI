@@ -30,3 +30,11 @@ This app aligns with **UN Sustainable Development Goal 3 (Good Health & Well-bei
 ├── .gitignore
 ├── README.md
 └── package.json
+
+
+![image](https://github.com/user-attachments/assets/047fd401-e26a-46d4-82cf-597010eafaa8)
+![image](https://github.com/user-attachments/assets/20ad0add-8184-4a63-b9e6-023509944686)
+![image](https://github.com/user-attachments/assets/59801caa-822f-4045-a8da-3039f9023e4c)
+![image](https://github.com/user-attachments/assets/1d49525f-3032-430b-8776-f0609111e97f)
+![image](https://github.com/user-attachments/assets/771afa96-2039-445a-88df-78e275cc5d03)
+
